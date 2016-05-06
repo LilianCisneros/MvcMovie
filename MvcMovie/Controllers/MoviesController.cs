@@ -19,7 +19,7 @@ namespace MvcMovie.Controllers
         {
             return View(db.Movies.ToList());
         }*/
-        public ActionResult Index(string searchString)
+        /*public ActionResult Index(string searchString)
         {
             var movies = from m in db.Movies
                          select m;
@@ -31,7 +31,7 @@ namespace MvcMovie.Controllers
 
             return View(movies);
         }
-
+        */
         // GET: /Movies/Details/5
         public ActionResult Details(int? id)
         {
