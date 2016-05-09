@@ -47,6 +47,7 @@ namespace MvcMovie.Controllers
         }
         
         //Hey Lilian! ;-)
+        //Hey Lilian! :p
 
         // GET: /Movies/Details/5
         public ActionResult Details(int? id)
