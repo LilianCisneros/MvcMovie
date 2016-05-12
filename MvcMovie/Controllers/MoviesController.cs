@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using MvcMovie.Models;
 
 namespace MvcMovie.Controllers
+    //Hola :)
 {
     public class MoviesController : Controller
     {
