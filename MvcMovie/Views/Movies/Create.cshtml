@@ -47,6 +47,13 @@
                 @Html.ValidationMessageFor(model => model.Price)
             </div>
         </div>
+        <div class="form-group">
+            @Html.LabelFor(Model => Model.Rating, new { @class ="control-label col-md-2"})
+            <div class="col-md-10">
+                @Html.EditorFor(Model => Model.Rating)
+                @Html.ValidationMessageFor(Model => Model.Rating)
+            </div>
+        </div>
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
